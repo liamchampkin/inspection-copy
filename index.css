@@ -1,0 +1,781 @@
+/* ::::: http://www.ebooksampleoup.com/_resources/css/global.css?2013 ::::: */
+body {
+    margin:0;
+    color:#6c6869;
+    font-size:.7em;
+    line-height:1.4em;
+    font-family:Verdana,Geneva,Arial,Helvetica,Tahoma,sans-serif;
+    background-color:#eae6df
+}
+
+div.clearer,div.left_clearer {
+    height:0;
+    line-height:0;
+    overflow:hidden
+}
+
+div.clearer {
+    clear:both
+}
+
+#wrapper {
+    margin:0 auto;
+    padding:0 40px 20px;
+    width:894px;
+    position:relative
+}
+
+@font-face {
+    font-family:"OUP Medium";
+    src:url(fslolaprimary-medium.eot) format("eot"),url(fslolaprimary-medium.ttf) format("truetype")
+}
+
+@font-face {
+    font-family:"OUP Medium";
+    font-weight:700;
+    src:url(fslolaprimary-bold.eot) format("eot"),url(fslolaprimary-bold.ttf) format("truetype")
+}
+
+h1 {
+    margin:0;
+    padding:0;
+    font-weight:400;
+    font-size:4.3em;
+    line-height:1em
+}
+
+h2 {
+    margin:6px 0 8px;
+    padding:0;
+    font-weight:700;
+    font-size:1.3em;
+    line-height:1.3em
+}
+
+p {
+    margin:14px 0
+}
+
+a {
+    text-decoration:none
+}
+
+a:hover {
+    text-decoration:underline
+}
+
+a img {
+    border:medium none
+}
+
+#skip_to_content {
+    visibility:hidden
+}
+
+input,textarea {
+    font-size:1em
+}
+
+input[type="text"],input[type="email"],input[type="password"],textarea {
+    padding:3px 6px;
+    border-width:1px;
+    border-style:solid;
+    border-color:#a4a2a3 #dfdede #dfdede #6f6d6d
+}
+
+input[type="submit"] {
+    padding:3px 5px;
+    font-weight:700;
+    background:#072563 none repeat scroll 0 0;
+    border:1px solid #072563
+}
+
+input[type="submit"]:hover {
+    cursor:pointer;
+    background:#274583 none repeat scroll 0 0
+}
+
+label {
+}
+
+table.form_table td.value input[type="submit"],input.form_submit {
+    display:block;
+    float:right;
+    padding:1px 6px 2px;
+    width:130px;
+    text-align:center;
+    font-size:1.2em;
+    line-height:16px;
+    border:1px solid #042a6b!important;
+    border-radius:6px
+}
+
+input.form_submit {
+    margin:0 0 8px;
+
+}
+
+table.form_table td.value input[type="submit"]:hover,input.form_submit:hover {
+
+}
+
+.text_colour_white,input.form_submit,#header #right_column #search_button,#primary_nav ul li a,ul#lower_nav li a.selected,.bg_colour_blue h2,.bg_colour_blue .find_out_more,.bg_colour_blue .find_out_more:hover,.bg_colour_zone h2,.bg_colour_zone .find_out_more,.bg_colour_zone .find_out_more:hover,.search_results h2,.search_results p.category_zone,.search_results table td span.marker,.narrow_search h2,.dictionary_help h2,.dictionary_help p,.link_button_list a,.link_button_list a:hover,a.show_all_resources,a.show_all_resources:hover,table.series_order_form td.series_title {
+    color:#fff
+}
+
+input[type="submit"] {
+    color:#fff
+}
+
+.text_colour_blue,ul#lower_nav ul li span.selected,ul#lower_nav ul li a.selected,.faq_expandable h2,.ask_an_expert h2,.ask_an_editor h2,h1,h2.strapline,p.expert_quote,span.search_tip,a {
+    color:#1f68a5
+}
+
+a.text_colour_blue:hover,ul#lower_nav ul li a.selected:hover,a:hover {
+    color:#3f98d5
+}
+
+.text_colour_default,textarea,#header a,#primary_nav ul li:hover a,#primary_nav ul li a:focus,#primary_nav ul li.menu_hover a,#primary_nav ul li.menu_tab_focus a,#lower_nav a,#account_nav a,table.form_table td hr,.find_out_more,.select_letter a,#footer a,#legal a,input {
+    color:#6c6869
+}
+
+a.text_colour_default:hover,#header a:hover,#primary_nav ul ul ul a:hover,#lower_nav a:hover,#account_nav a:hover,.find_out_more:hover,#footer a:hover,#legal a:hover {
+    color:#8c8889
+}
+
+.text_font_oup_medium,#header #left_column span,#primary_nav ul li a,ul#lower_nav li a,h1,p.expert_quote,p.strapline,.dictionary_help h2,.dictionary_help p,.link_button_list a,.select_letter a,#checkout_process span {
+    font-family:"OUP Medium",Arial,Helvetica,Verdana,Geneva,Tahoma,sans-serif
+}
+
+.text_font_verdana,input,textarea,#header #right_column #search_input,#header #right_column #search_button,#primary_nav ul li a.refresh_page_link,#primary_nav ul ul li span,#primary_nav ul ul li a,ul#lower_nav ul li span,ul#lower_nav ul li a {
+    font-family:Verdana,Geneva,Arial,Helvetica,Tahoma,sans-serif
+}
+
+.bg_colour_white,#wrapper,#header #right_column #search_input,#primary_nav ul li:hover a,#primary_nav ul li a:focus,#primary_nav ul li.menu_hover a,#primary_nav ul li.menu_tab_focus a,#primary_nav ul li div,.enclosed .inner_block {
+    background-color:#fff
+}
+
+.bg_colour_grey,#header #right_column .selected,ul#lower_nav li a,.enclosed,.narrow_search .filters,.search_results p.category,.search_results p.category_zone,#footer,ul#sitemap li div {
+    background-color:#f1eeed
+}
+
+#header {
+    width:100%;
+    min-height:113px
+}
+
+#header #left_column {
+    float:left;
+    padding-top:26px;
+    width:450px;
+    height:45px
+}
+
+#header #left_column img {
+    margin-right:20px;
+    border-right:1px solid #e9e5e4
+}
+
+#header #left_column a,#header #left_column span {
+    display:block;
+    float:left
+}
+
+#search_content {
+    float:left;
+}
+
+.content_block {
+    float:left;
+    margin-bottom:11px
+}
+
+#page_content .full_width,#page_content .half_width,#search_content .full_width,#search_content .half_width {
+}
+
+.enclosed h2 {
+    padding-left:10px;
+    font-size:1.2em
+}
+
+.enclosed .inner_block {
+    margin:3px 3px 9px
+}
+
+.inset_text_block,.clipped_text_block {
+    padding:10px
+}
+
+input.add_evaluate,a.order_evaluate,table.form_table td.value input.primary[type="submit"],input.form_submit.primary {
+    display:block!important;
+    margin-bottom:14px!important;
+    padding:4px 6px!important;
+    color:#221306!important;
+    text-align:center;
+    text-decoration:none!important;
+    font-size:1.25em;
+    background-color: #FEAF37;
+
+    border:2px solid #fcb034!important;
+    border-radius:12px
+}
+
+table.form_table td.value input.primary[type="submit"],input.form_submit.primary {
+    font-size:1.2em
+}
+
+
+
+/* ::::: http://www.ebooksampleoup.com/_resources/css/ecommerce.css?2013 ::::: */
+td.align_right {
+    text-align:right
+}
+
+td.valign_top {
+    vertical-align:top
+}
+
+td.valign_bottom {
+    vertical-align:bottom
+}
+
+#header.ecommerce_header {
+    min-height:65px
+}
+
+#header.ecommerce_header #left_column img {
+    border-right:0 none
+}
+
+#header.ecommerce_header #left_column {
+    width:340px
+}
+
+table.guest_details_table {
+    width:100%
+}
+
+table.guest_details_table td.text_column {
+    text-align:right;
+    width:146px!important
+}
+
+#guest_details_continue {
+    display:block;
+    float: right;
+}
+
+#legal_information_container {
+    margin:21px 0 31px 1px;
+    width:871px
+}
+
+table.legal_information {
+    width:100%;
+    border-collapse:collapse
+}
+
+table.legal_information td.fixed_width {
+    width:390px
+}
+
+table.legal_information td {
+    padding:0
+}
+
+table.legal_information td p {
+    margin:0
+}
+
+/* ::::: http://www.ebooksampleoup.com/javax.faces.resource/theme.css.jsf?ln=primefaces-home ::::: */
+.ui-widget {
+    font-family:Verdana,Arial,sans-serif;
+    font-size:1.1em
+}
+
+.ui-widget .ui-widget {
+    font-size:1em
+}
+
+.ui-widget input,.ui-widget select,.ui-widget textarea,.ui-widget button {
+    font-family:Verdana,Arial,sans-serif;
+    font-size:1em
+}
+
+.ui-widget-content {
+    border:1px solid #ccc;
+    background:#f2f1f1 none repeat-x scroll 0 0;
+    color:#222
+}
+
+.ui-widget-content a {
+    color:#222
+}
+
+.ui-widget-header {
+    border:1px solid #56585c;
+    background:#424548 none repeat scroll 0 0;
+    color:#f9f7f7;
+    font-weight:700
+}
+
+.ui-widget-header a {
+    color:#f9f7f7
+}
+
+.ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default {
+    border:1px solid #68727b;
+    background:#68727b url(default.png.jsf) repeat-x scroll 50% 50%;
+    font-weight:400;
+    color:#fff
+}
+
+.ui-widget:active {
+    outline:medium none
+}
+
+.ui-icon {
+    width:16px;
+    height:16px;
+    background-image:url(ui-icons_222222_256x240.png.jsf)
+}
+
+.ui-widget-content .ui-icon {
+    background-image:url(ui-icons_222222_256x240.png.jsf)
+}
+
+.ui-widget-header .ui-icon {
+    background-image:url(ui-icons_bbbbbb_256x240.png.jsf)
+}
+
+.ui-icon-closethick {
+    background-position:-96px -128px
+}
+
+.ui-corner-top {
+    border-top-left-radius:4px;
+    border-top-right-radius:4px
+}
+
+.ui-corner-all {
+    border-radius:4px
+}
+
+.ui-inputfield,.ui-widget-content .ui-inputfield,.ui-widget-header .ui-inputfield {
+    background:#fff none repeat scroll 0 0;
+    box-shadow:0 2px 2px #8f8f8f inset;
+    color:#222
+}
+
+/* ::::: http://www.ebooksampleoup.com/javax.faces.resource/primefaces.css.jsf?ln=primefaces ::::: */
+.ui-helper-hidden-accessible {
+    position:absolute!important;
+    clip:rect(1px,1px,1px,1px)
+}
+
+.ui-helper-clearfix::after {
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden
+}
+
+.ui-helper-clearfix {
+    display:inline-block
+}
+
+.ui-helper-clearfix {
+    display:block
+}
+
+.ui-icon {
+    display:block;
+    text-indent:-99999px;
+    overflow:hidden;
+    background-repeat:no-repeat
+}
+
+.ui-shadow {
+    box-shadow:0 5px 10px rgba(0,0,0,0.8)
+}
+
+.ui-overlay-hidden {
+    visibility:hidden
+}
+
+.ui-overlay-hidden * {
+    visibility:hidden!important
+}
+
+.ui-overlay-hidden table {
+}
+
+.ui-dialog {
+    position:fixed;
+    padding:0;
+    overflow:hidden
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    padding:.4em .4em .4em 1em;
+    position:relative;
+    border:0 none
+}
+
+.ui-dialog .ui-dialog-title {
+    float:left;
+    margin:.3em 16px .1em 0
+}
+
+.ui-dialog .ui-dialog-content {
+    position:relative;
+    border:0 none;
+    padding:.5em 1em;
+    background:transparent none repeat scroll 0 0;
+    overflow:auto
+}
+
+.ui-draggable .ui-dialog-titlebar {
+    cursor:move
+}
+
+.ui-dialog .ui-dialog-titlebar-close,.ui-dialog .ui-dialog-titlebar-minimize,.ui-dialog .ui-dialog-titlebar-maximize {
+    float:right;
+    margin:0;
+    top:0;
+    padding:1px;
+    cursor:pointer
+}
+
+.ui-dialog .ui-dialog-titlebar-close span,.ui-dialog .ui-dialog-titlebar-minimize span,.ui-dialog .ui-dialog-titlebar-maximize span {
+    display:block;
+    margin:0
+}
+
+.ui-dialog .ui-dialog-titlebar-close:hover,.ui-dialog .ui-dialog-titlebar-close:focus,.ui-dialog .ui-dialog-titlebar-minimize:hover,.ui-dialog .ui-dialog-titlebar-minimize:focus,.ui-dialog .ui-dialog-titlebar-maximize:hover,.ui-dialog .ui-dialog-titlebar-maximize:focus {
+    padding:0
+}
+
+.ui-dialog-docking-zone {
+    position:fixed;
+    bottom:0;
+    left:0
+}
+
+.ui-inputfield {
+    margin:0;
+    outline:medium none;
+    padding:4px;
+    font-weight:400
+}
+
+.ui-widget-header .ui-inputfield,.ui-widget-content .ui-inputfield {
+    font-weight:400
+}
+
+.ui-chkbox {
+    display:inline-block
+}
+
+.ui-chkbox .ui-chkbox-box {
+    float:left;
+    width:16px;
+    height:16px;
+    border-radius:2px;
+    margin-right:3px
+}
+
+.ui-button {
+    display:inline-block;
+    position:relative;
+    padding:0;
+    margin-right:.1em;
+    text-decoration:none!important;
+    cursor:pointer;
+    text-align:center;
+    overflow:visible
+}
+
+.ui-button .ui-button-text {
+    display:block;
+    line-height:1.4
+}
+
+.ui-button-text-only .ui-button-text {
+    padding:.4em 1em
+}
+
+button.ui-button::-moz-focus-inner {
+    border:0 none;
+    padding:0
+}
+
+.ui-outputlabel .ui-outputlabel-rfi {
+    margin-left:.4em
+}
+
+.ui-tabs-left::after,.ui-tabs-right::after {
+    clear:both;
+    content:".";
+    display:block;
+    height:0;
+    visibility:hidden
+}
+
+.disclaimer {
+    font-size:10px
+}
+
+.span4{
+	width: 31.6239%;
+	float: left;
+}
+
+.span8{
+	width: 65.812%;
+	float: left;
+}
+
+.span6{
+	width: 49%;
+	float: left;
+}
+
+.span12{
+	width: 100%;
+}
+
+.span6-margin-left{
+	margin-left: 2%;
+}
+
+.register-block, .password-block{
+	width: 100%;
+}
+
+.need-help,
+.what-next{
+    padding: 3em 2em;
+    border-radius: 20px;
+}
+
+.need-help{
+    background-color: #ECECEC;
+    color: #434343;
+}
+
+.what-next{
+	background-color: #434343;
+	color: white;
+    margin-bottom: 20px;
+}
+
+.what-next p,
+.need-help p{
+	font-size: 1.3em;
+}
+
+.what-next a{
+	color: #FEAF37;
+	opacity: 0.9;
+}
+
+.what-next::before {
+    border-bottom: 19px solid transparent;
+    border-right: 19px solid #434343;
+    border-top: 19px solid transparent;
+    content: " ";
+    height: 0;
+    position: absolute;
+    width: 0;
+	margin-left: -39px;
+}
+
+
+.password-block, #legal_information_container {
+	border: 1px solid #dadada;
+}
+
+.password-block{
+	padding: 1em;
+	margin-top: 40px;
+    background-color: #eaeaea;
+}
+
+.password-block input#pwd{
+    width: 150px;
+}
+
+#legal_information_container{
+	padding: 2em;
+	width: auto;
+    margin: 21px 0 0 1px; /*overides css*/
+}
+
+h1{
+	font-family: "OUP Medium",Arial,Helvetica,Verdana,Geneva,Tahoma,sans-serif;
+    font-size: 5em;
+    margin-top: 30px;
+}
+
+h1, h2{
+	max-width: 520px;
+}
+
+.bg-colour-green {
+    background-color: #99ca3c;
+}
+
+.bg-colour-blue{
+    background-color: #1f68a5;
+}
+
+.bg-colour-green h2, .bg-colour-blue h2{
+	color: white;
+}
+
+.lead {
+	font-size: 1.8em;
+	line-height: 1.5;
+}
+
+p, span.forgotten-password{
+	font-size: 1.2em;
+	line-height: 1.5;
+}
+
+.forgotten-password {
+	float: left;
+	margin-top: 4px;
+	position: relative;
+}
+
+label {
+   font-size: 1.2em;
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea {
+    border-color: #777777;
+    border-style: solid;
+    border-width: 1px;
+    padding: 3px 6px;
+}
+
+.ui-inputfield, .ui-widget-content .ui-inputfield, .ui-widget-header .ui-inputfield {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: none;
+    color: #222;
+}
+
+#header.ecommerce_header {
+    display: none;
+    min-height: 65px;
+}
+
+.oxford-logo{
+	margin: 0 0 20px 0;
+}
+
+hr.inspection {
+	border-bottom: 0 none;
+	border-top: 1px solid #dadada;
+	margin: 20px 0;
+	border-left: 0;
+	border-right: 0;
+}
+
+a[href]:not([href^="http"]):not([href^="javascript"]):not([href^="mailto"])::before{
+	content: ""
+}
+
+.enclosed h2 {
+    padding-left: 10px;
+    font-size: 1.8em;
+    margin-top: 10px;
+    padding-left: 10px;
+    line-height: 1.5;
+    font-weight: normal;
+}
+
+.button-container{
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.button {
+    display: inline-flex;
+    font-size: 1.3em;
+    margin: 10px 0;
+    padding: 10px 17px 10px 35px;
+    text-align: center;
+    position: relative;
+    color: white;
+    background-color: #2F78B5;
+    margin: 12px auto;
+}
+
+a.button:hover{
+    color: white;
+    text-decoration: none;
+    background-color: #246BA5;
+}
+
+span.caret-back{
+    position: relative;
+}
+
+span.caret-back:before{
+    content: " ";
+    background-image: url("caret2-white.svg");
+    height: 25px;
+    width: 16px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    position: absolute;
+    padding-left: 20px;
+    left: -20px;
+    top: 0;
+    background-size: 23%;
+
+}
+
+.align-center{
+    text-align: center;
+}
+
+p.small{
+    font-size: 12px;
+}
+
+.align-right{
+    text-align: right;
+}
+
+.register-block .guest_details_table tr {
+    height: 38px;
+   
+}
+
+#wrapper{
+    margin-bottom: 20px;
+}
+
+.display-none{
+    display: none;
+}
+
+.middle-container{
+    width: 100%;
+}
+
+.register-middle{
+    width: 438px;
+    margin: 0 auto;
+    float: none;
+}
+
+.register-middle h2{
+    text-align: center;
+}
